@@ -1,0 +1,90 @@
+.backgroun_d {
+    background: rgba(6, 117, 136, 0.74);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.6px);
+    -webkit-backdrop-filter: blur(13.6px);
+    border: 1px solid rgba(6, 117, 136, 0.51);
+}
+
+#container {
+    border-radius: 47px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow: 5px 5px 10px #636363, -5px -5px 10px #ffffff;
+    backdrop-filter: blur(13.6px);
+    -webkit-backdrop-filter: blur(13.6px);
+    border: 1px solid rgba(6, 117, 136, 0.51);
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    opacity: .9;
+}
+
+#timer {
+    color: rgb(0, 119, 255);
+    font-size: 50px;
+    margin: 10px auto;
+    border: 5px solid rgb(42, 159, 255);
+    border-radius: 50%;
+    background: linear-gradient(225deg, #c4c4c4, #ffffff);
+    box-shadow: -11px 11px 100px #8c8c8c, 11px -11px 100px #ffffff;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    backdrop-filter: blur(13.6px);
+    -webkit-backdrop-filter: blur(13.6px);
+}
+
+#time {
+    margin-top: 70px;
+    z-index: 1;
+    position: relative;
+}
+
+#filler {
+    background: #fafff7;
+    height: 0px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+}
+
+#buttons button {
+    border-radius: 47px;
+    background: linear-gradient(225deg, #deb992, #ffdcad);
+    box-shadow: -5px 5px 10px #6d5b47, 5px -5px 10px #fffffd;
+    color: rgb(14, 9, 9);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    padding: 5px;
+    width: 90px;
+    margin: 10px auto;
+    font-size: 14px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+#buttons button#shortBreak {
+    border-radius: 47px;
+    background: linear-gradient(225deg, #aee6b8, #cfffda);
+    box-shadow: -5px 5px 10px #55705a, 5px -5px 10px #ffffff;
+}
+
+#buttons button#longBreak {
+    border-radius: 47px;
+    background: linear-gradient(225deg, #accfdc, #ccf6ff);
+    box-shadow: -5px 5px 10px #54656b, 5px -5px 10px #ffffff;
+}
+
+#buttons button#stop {
+    border-radius: 47px;
+    background: linear-gradient(225deg, #e67a7a, #ff9292);
+    box-shadow: -5px 5px 10px #703c3c, 5px -5px 10px #ffd4d4;
+}
